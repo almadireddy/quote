@@ -7,7 +7,10 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-yahoo_finance_api = {"version" = "1.0"}
 chrono = "0.4"
 futures = "0.3"
-textplots = "0.5.4"
+tui = "0.14"
+termion = "1.5"
+tokio = { version = "0.2", features = ["full"] }
+alpha_vantage = "0.5.0"
+
