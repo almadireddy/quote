@@ -1,0 +1,13 @@
+[package]
+name = "quote"
+version = "0.1.0"
+authors = ["Al Madireddy <al.madireddy@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yahoo_finance_api = {"version" = "1.0"}
+chrono = "0.4"
+futures = "0.3"
+textplots = "0.5.4"
