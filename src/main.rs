@@ -86,7 +86,7 @@ async fn main() {
             .block(
                 Block::default()
                     .title(Span::styled(
-                        "Quote",
+                        ticker.to_uppercase(),
                         Style::default()
                             .fg(Color::Cyan)
                     ))
