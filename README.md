@@ -6,6 +6,9 @@ Usage: `quote <ticker>`
 
 Example: `quote aapl` to show Apple Inc. stock quote.
 
+![Example run showing Apple Inc. stock quote](example_run.png?)
+
+
 ## Setup
 
 Get an API key for [Alpha Vantage](https://www.alphavantage.co/) and set environment variable `ALPHA_VANTAGE_KEY`'s value to it. 
